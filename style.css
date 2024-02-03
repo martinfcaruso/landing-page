@@ -39,17 +39,14 @@ a {
 .main {
     display: flex;
     flex-direction: column;
-    
 }
 
 .awesome {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-evenly;
-    gap: 20px;
-    padding: 10px 10px;
-    padding-bottom: 50px;
-    
+    justify-content: space-between;
+    gap: 30px;
+    padding: 80px 200px;  
 }
 
 .awesome h2 {
@@ -68,16 +65,21 @@ button {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: 4px 14px;
-    border-radius: 6px;
+    border-radius: 6px;   
+}
+
+.website, .image {
+    display: flex;
+    flex: 1;
 }
 
 .website {
-    text-align: left;
-    
+    flex-flow: column wrap;
+    align-items: flex-start;
 }
 
 .image {
-    display: flex;
-    text-align: center;
+    justify-content: center;
     align-items: center;
+    background-color: grey;
 }
