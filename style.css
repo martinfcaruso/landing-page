@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 10px 200px;
+    
 }
 
 .header {
@@ -33,4 +34,50 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.awesome {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px 10px;
+    padding-bottom: 50px;
+    
+}
+
+.awesome h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.awesome p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 4px 14px;
+    border-radius: 6px;
+}
+
+.website {
+    text-align: left;
+    
+}
+
+.image {
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
