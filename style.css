@@ -83,3 +83,45 @@ button {
     align-items: center;
     background-color: grey;
 }
+
+.info {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    padding: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: min-content;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card img {
+    border: #3882f6;
+    border-radius: 16px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+}
+
+.card p {
+    text-align: center;
+}
