@@ -64,12 +64,12 @@ p {
     color: #e5e7eb;
 }
 
-button {
+.website a {
     background-color: #3882f6;
     font-size: 16px;
     color: white;
     font-weight: bold;
-    padding: 8px 32px;
+    padding: 6px 32px;
     border-radius: 6px;  
     border-style: none;
 }
