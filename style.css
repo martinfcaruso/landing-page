@@ -91,6 +91,7 @@ button {
 }
 
 .info {
+    padding-bottom: 100px;
     display: flex;
     flex-flow: column wrap;
 }
