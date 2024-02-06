@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -21,7 +21,7 @@ body {
 
 .right-links {
     display: flex;
-    gap: 16px;
+    gap: 36px;
 }
 
 ul {
@@ -48,7 +48,7 @@ p {
 .awesome {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 30px;
     padding: 80px 200px;  
 }
@@ -74,27 +74,17 @@ p {
     border-style: none;
 }
 
-.website, .image {
-    display: flex;
-    flex: 1;
-}
-
-.website {
-    flex-flow: column wrap;
-    align-items: flex-start;
-}
 
 .image {
-    justify-content: center;
-    align-items: center;
     max-width: 500px;
     max-height: 245px;
+    text-align: center;
 }
 
 .image img {
     max-width: 100%;
     height: 100%;
-    display: block;
+    object-fit: cover;
     margin: 0 auto;
 }
 
@@ -135,6 +125,7 @@ p {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 .card p {
@@ -147,14 +138,15 @@ p {
     flex-direction: column;
     align-items: center;
     background-color: #e5e7eb;
-    font-weight: lighter;
-    font-style: italic;
     padding: 100px 400px;
 }
 
 .quote p {
     margin: 0;
     font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
 }
 
 #author {
@@ -163,6 +155,7 @@ p {
     padding: 5px 0;
     color: #1f2937;
     font-style: normal;
+    align-self: flex-end;
 }
 
 .c2a {
@@ -198,7 +191,7 @@ p {
     padding: 6px 32px;
     border-radius: 6px;  
     border: 2px solid white;
-}
+} 
 
 .footer {
     display: flex;
